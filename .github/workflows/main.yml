@@ -12,4 +12,4 @@ jobs:
         - name: Install
           run: npm install
         - name: Test
-          run: ENV=staging npm run all:test
+          run: ENV=staging npm run store:test
